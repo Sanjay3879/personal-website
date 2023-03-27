@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Sanjay_resume from '../assets/Sanjay_resume.pdf'
 
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
             </div>
         </div>
         <div className="butt">
-                <a href='/' className='bo' target={'_blank'} rel="noreferrer"> Resume</a>
+                <a href={Sanjay_resume} className='bo' target={'_blank'} rel="noreferrer"> Resume</a>
                 </div>
       </div>
     </div>
