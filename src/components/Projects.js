@@ -9,21 +9,21 @@ const data = [
         image: "https://firebasestorage.googleapis.com/v0/b/portfolio-dashboard-8f800.appspot.com/o/images%2Fnetflix.png?alt=media&token=f41ff2eb-3149-47f0-8b6a-d1b42ba5c4b8",
         title: "Netflix Clone",
         github: "https://github.com/Sanjay3879/netflix-clone",
-        demo: ""
+        demo: "https://netflix-clone-561cf.web.app"
     },
     {
         id: 2,
         image: movies,
         title: "Movies Website",
         github: "https://github.com/Sanjay3879/movies-website",
-        demo: ""
+        demo: "https://movies-react3879.netlify.app"
     },
     {
         id: 3,
         image: portfolio,
         title: "Portfolio Website",
         github: "https://github.com/Sanjay3879/personal-website",
-        demo: ""
+        demo: "https://sanjay-website.netlify.app/"
     },
 ]
 function Projects() {
