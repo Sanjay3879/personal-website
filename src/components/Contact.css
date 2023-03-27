@@ -1,0 +1,79 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .h2 {
+    font-family: monospace;
+    font-size: 2rem;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.buti {
+    padding: 1rem 1.5rem;
+    background-color: #E6007E;
+    color: white;
+    width: 100px;
+    margin: auto;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+  }
+  .formc {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+  }
+  .formd {
+    /* position: relative; */
+    height: 4rem;
+    margin-bottom: 40px;
+  }
+  .labelf {
+    /* position: absolute; */
+    top: -0.75rem;
+    left: 1.25rem;
+    padding: 0.15rem;
+    background-color: white;
+    font-size: 0.9rem;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  .forminput {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: white;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  .forminput::-webkit-input-placeholder {
+    font-family: "myFont", Arial, Helvetica, sans-serif;
+  }
+  .innp {
+    height: 40px;
+  }
+  @media (max-width:375px){
+    .formc{
+      width: 300px;
+    }
+    .forminput{
+      width: 280px;
+    }
+  }

@@ -1,0 +1,72 @@
+.navcon{
+    font-family: ubuntu,sans-serif;
+    color: white;
+    width: 80%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    /* border: 2px solid red; */
+}
+h2{
+    margin: 10px;
+    font-size: 2.25rem;
+}
+h2 span{
+    color: crimson;
+    font-size: 1.75rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    padding-right: 30px;
+    cursor: pointer;
+    transition:all 0.4s ease;
+}
+li:hover{
+    color: crimson;
+}
+.menubtn i{
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    margin-right: 10px;
+}
+#click{
+    display: none;
+}
+@media (max-width:940px){
+    .navcon{
+        width: 95%;
+    }
+    ul{
+        position: fixed;
+        top: 47px;
+        left: -100%;
+        height: 100vh;
+        /* border: 2px solid blue; */
+        display: inline-block;
+        text-align: center;
+        transition: all 0.5 ease-in-out;
+    }
+    #click:checked ~ .menubtn i::before{
+        content: "\f00d";
+    }
+    #click:checked ~ ul{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    ul li{
+        margin: 40px 0px;
+        font-size: 1.5rem;
+    }
+    .menubtn i{
+        display: block;
+    }
+}
